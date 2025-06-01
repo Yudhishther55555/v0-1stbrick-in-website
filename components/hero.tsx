@@ -29,9 +29,9 @@ export default function Hero() {
   ]
 
   const stats = [
-    { icon: Building, value: "500+", label: "Projects Completed" },
-    { icon: Users, value: "1000+", label: "Happy Clients" },
-    { icon: Award, value: "50+", label: "Awards Won" },
+    { icon: Building, value: "150+", label: "Projects Completed" },
+    { icon: Users, value: "300+", label: "Happy Clients" },
+    { icon: Award, value: "5+", label: "Awards Won" },
     { icon: Clock, value: "24/7", label: "Support" },
   ]
 
