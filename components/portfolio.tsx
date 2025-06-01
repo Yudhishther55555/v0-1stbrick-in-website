@@ -14,8 +14,7 @@ export default function Portfolio() {
     { id: "residential", label: "Residential" },
     { id: "commercial", label: "Commercial" },
     { id: "industrial", label: "Industrial" },
-    { id: "infrastructure", label: "Infrastructure" },
-  ]
+      ]
 
   const projects = [
     {
