@@ -37,7 +37,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            <Image src="/logo-symbol.png" alt="1st Brick Logo" width={40} height={40} className="animate-float" />
+            <Image src="/logo-symbol.png" alt="1st Brick Logo" width={60} height={60} className="animate-float" />
             <span className="text-2xl font-bold">
               <span className="text-primary">1st</span>
               <span className="text-tertiary">Brick.in</span>
