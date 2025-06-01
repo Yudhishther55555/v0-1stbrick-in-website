@@ -8,13 +8,13 @@ export default function Pricing() {
   const plans = [
     {
       name: "Basic",
-      price: "₹2,500",
+      price: "₹1,800",
       period: "per sq ft",
       description: "Perfect for small residential projects",
       features: [
         "Basic construction materials",
         "Standard finishing",
-        "Project timeline: 6-8 months",
+        "Project timeline: 10 months",
         "Basic project management",
         "1-year warranty",
         "Email support",
@@ -24,13 +24,13 @@ export default function Pricing() {
     },
     {
       name: "Premium",
-      price: "₹3,500",
+      price: "₹2,200",
       period: "per sq ft",
       description: "Most popular choice for quality construction",
       features: [
         "Premium construction materials",
         "High-quality finishing",
-        "Project timeline: 4-6 months",
+        "Project timeline: 10 months",
         "Advanced project management software",
         "3-year warranty",
         "24/7 phone support",
@@ -42,13 +42,13 @@ export default function Pricing() {
     },
     {
       name: "Luxury",
-      price: "₹5,000",
+      price: "₹3,000",
       period: "per sq ft",
       description: "Ultimate luxury with premium features",
       features: [
         "Luxury construction materials",
         "Designer finishing",
-        "Project timeline: 3-4 months",
+        "Project timeline: 12 months",
         "Full software suite access",
         "5-year warranty",
         "Dedicated project manager",
