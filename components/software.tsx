@@ -149,19 +149,19 @@ export default function Software() {
 
             <div className="grid grid-cols-2 gap-6">
               <div className="text-center p-6 bg-primary/5 rounded-xl">
-                <div className="text-3xl font-bold text-primary mb-2">500+</div>
+                <div className="text-3xl font-bold text-primary mb-2">150+</div>
                 <div className="text-gray-600">Active Projects</div>
               </div>
               <div className="text-center p-6 bg-secondary/5 rounded-xl">
-                <div className="text-3xl font-bold text-secondary mb-2">99.9%</div>
+                <div className="text-3xl font-bold text-secondary mb-2">99%</div>
                 <div className="text-gray-600">Uptime</div>
               </div>
               <div className="text-center p-6 bg-tertiary/5 rounded-xl">
-                <div className="text-3xl font-bold text-tertiary mb-2">24/7</div>
+                <div className="text-3xl font-bold text-tertiary mb-2">24x7</div>
                 <div className="text-gray-600">Support</div>
               </div>
               <div className="text-center p-6 bg-accent/5 rounded-xl">
-                <div className="text-3xl font-bold text-accent mb-2">1000+</div>
+                <div className="text-3xl font-bold text-accent mb-2">300+</div>
                 <div className="text-gray-600">Happy Users</div>
               </div>
             </div>
