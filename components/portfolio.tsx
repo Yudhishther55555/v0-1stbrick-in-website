@@ -188,15 +188,15 @@ export default function Portfolio() {
         <div className="mt-16 bg-white rounded-2xl p-8 lg:p-12 shadow-xl animate-fade-in">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">500+</div>
+              <div className="text-4xl font-bold text-primary mb-2">150+</div>
               <div className="text-gray-600">Projects Completed</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-secondary mb-2">₹1000+</div>
+              <div className="text-4xl font-bold text-secondary mb-2">₹100+</div>
               <div className="text-gray-600">Crores Worth Projects</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-tertiary mb-2">25+</div>
+              <div className="text-4xl font-bold text-tertiary mb-2">5+</div>
               <div className="text-gray-600">Cities Covered</div>
             </div>
             <div>
