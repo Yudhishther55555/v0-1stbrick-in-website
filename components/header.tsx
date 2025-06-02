@@ -61,7 +61,7 @@ export default function Header() {
           <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-sm text-gray-600">
               <Phone className="w-4 h-4" />
-              <span>+91 98765 43210</span>
+              <span>+91 73000 00622</span>
             </div>
             <Button className="bg-primary hover:bg-primary/90">Get Quote</Button>
           </div>
