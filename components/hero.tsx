@@ -4,6 +4,10 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Play, Building, Users, Award, Clock } from "lucide-react"
 
+
+
+
+
 export default function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0)
 
