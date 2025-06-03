@@ -25,7 +25,7 @@ export default function USP() {
     {
       icon: Users,
       title: "Expert Team",
-      description: "500+ certified engineers and architects with 15+ years average experience",
+      description: "50+ certified engineers and architects with 15+ years average experience",
       stat: "50+ Experts",
     },
     {
