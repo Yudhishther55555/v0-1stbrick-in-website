@@ -9,11 +9,11 @@ export default function Hero() {
 
   const slides = [
     {
-      title: "Building Your Dreams",
-      subtitle: "Into Reality",
-      description: "India's most trusted construction partner with cutting-edge project management technology",
-      image: "/hero1.jpg",
-    },
+    title: "Building Your Dreams",
+    subtitle: "Into Reality",
+    description: "India's most trusted construction partner...",
+    image: "/hero1.jpg",
+  },
     {
       title: "Architectural Excellence",
       subtitle: "Meets Innovation",
