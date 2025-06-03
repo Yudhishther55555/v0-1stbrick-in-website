@@ -26,13 +26,13 @@ export default function USP() {
       icon: Users,
       title: "Expert Team",
       description: "500+ certified engineers and architects with 15+ years average experience",
-      stat: "500+ Experts",
+      stat: "50+ Experts",
     },
     {
       icon: Trophy,
       title: "Award Winning",
-      description: "50+ industry awards for excellence in construction and innovation",
-      stat: "50+ Awards",
+      description: "5+ industry awards for excellence in construction and innovation",
+      stat: "5+ Awards",
     },
     {
       icon: CheckCircle,
