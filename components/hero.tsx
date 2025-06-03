@@ -74,10 +74,17 @@ export default function Hero() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg">
-                Start Your Project
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
+              <Button
+  size="lg"
+  className="bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg"
+  asChild
+>
+  <a href="#contact">
+    Start Your Project
+    <ArrowRight className="ml-2 w-5 h-5" />
+  </a>
+</Button>
+
               <Button
                 variant="outline"
                 size="lg"
