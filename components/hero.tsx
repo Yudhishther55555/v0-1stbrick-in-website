@@ -12,7 +12,7 @@ export default function Hero() {
       title: "Building Your Dreams",
       subtitle: "Into Reality",
       description: "India's most trusted construction partner with cutting-edge project management technology",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/hero1.jpg",
     },
     {
       title: "Architectural Excellence",
