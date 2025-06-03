@@ -15,17 +15,17 @@ export default function Hero() {
     image: "/hero1.jpg",
   },
     {
-      title: "Architectural Excellence",
-      subtitle: "Meets Innovation",
-      description: "Award-winning designs powered by advanced construction management software",
-      image: "/placeholder.svg?height=600&width=800",
-    },
-    {
-      title: "Smart Construction",
-      subtitle: "For Modern India",
-      description: "Revolutionary project management solutions for faster, better construction",
-      image: "/placeholder.svg?height=600&width=800",
-    },
+    title: "Architectural Excellence",
+    subtitle: "Meets Innovation",
+    description: "Award-winning designs powered by advanced...",
+    image: "/hero2.jpg",
+  },
+  {
+    title: "Smart Construction",
+    subtitle: "For Modern India",
+    description: "Revolutionary project management solutions...",
+    image: "/hero3.jpg",
+  },
   ]
 
   const stats = [
