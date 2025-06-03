@@ -98,7 +98,7 @@ export default function Header() {
                 <div className="flex flex-col space-y-4 pt-4 border-t">
                   <div className="flex items-center space-x-2 text-sm text-gray-600">
                     <Phone className="w-4 h-4" />
-                    <span>+91 98765 43210</span>
+                    <span>+91 73000 00622</span>
                   </div>
                   <div className="flex items-center space-x-2 text-sm text-gray-600">
                     <Mail className="w-4 h-4" />
