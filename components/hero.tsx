@@ -47,7 +47,7 @@ export default function Hero() {
   }, [slides.length])
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center overflow-hidden pt-24 sm:pt-32">
       {/* Background with gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-secondary/5 to-tertiary/10" />
 
