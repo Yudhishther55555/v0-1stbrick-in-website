@@ -184,28 +184,6 @@ export default function Portfolio() {
           ))}
         </div>
 
-        {/* Stats Section */}
-        <div className="mt-16 bg-white rounded-2xl p-8 lg:p-12 shadow-xl animate-fade-in">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-4xl font-bold text-primary mb-2">150+</div>
-              <div className="text-gray-600">Projects Completed</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-secondary mb-2">₹100+</div>
-              <div className="text-gray-600">Crores Worth Projects</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-tertiary mb-2">5+</div>
-              <div className="text-gray-600">Cities Covered</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-accent mb-2">98%</div>
-              <div className="text-gray-600">Client Satisfaction</div>
-            </div>
-          </div>
-        </div>
-
         <div className="text-center mt-12 animate-fade-in">
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-4">
             View All Projects
