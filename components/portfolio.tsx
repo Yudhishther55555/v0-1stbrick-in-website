@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { MapPin, Calendar, Users, IndianRupee } from "lucide-react"
+import { MapPin, Calendar } from "lucide-react"
 
 export default function Portfolio() {
   const [activeCategory, setActiveCategory] = useState("all")
@@ -14,13 +14,13 @@ export default function Portfolio() {
     { id: "residential", label: "Residential" },
     { id: "commercial", label: "Commercial" },
     { id: "industrial", label: "Industrial" },
-      ]
+  ]
 
   const projects = [
     {
       id: 1,
       title: "Luxury Residential Complex",
-      category: "Residential",
+      category: "residential",
       location: "Jaipur",
       image: "/placeholder.svg?height=300&width=400",
       description: "Premium residential complex with modern amenities and smart home features.",
@@ -30,37 +30,37 @@ export default function Portfolio() {
     {
       id: 2,
       title: "Luxury Residential Bungalow",
-      category: "Residential",
+      category: "residential",
       location: "Jaipur",
       image: "/placeholder.svg?height=300&width=400",
-      description: "State-of-the-art office building with sustainable design and modern facilities.",
+      description: "Elegant bungalow with luxury features and eco-friendly materials.",
       status: "Completed",
       year: "2023",
     },
     {
       id: 3,
       title: "Villa Construction",
-      category: "Residential",
+      category: "residential",
       location: "Jaipur",
       image: "/placeholder.svg?height=300&width=400",
-      description: "Premium Villa with modern amenities and smart home features.",
+      description: "Premium villa with modern amenities and smart home features.",
       status: "Completed",
       year: "2022",
     },
     {
       id: 4,
       title: "Residential Bungalow",
-      category: "Residential",
+      category: "residential",
       location: "Jaipur",
-     image: "/placeholder.svg?height=300&width=400",
-      description: "Large-scale retail complex with entertainment zones and parking facilities.",
+      image: "/placeholder.svg?height=300&width=400",
+      description: "Large-scale bungalow with open spaces and custom design.",
       status: "Ongoing",
       year: "2024",
     },
     {
       id: 6,
       title: "Affordable Housing",
-      category: "Residential",
+      category: "residential",
       location: "Jaipur",
       image: "/placeholder.svg?height=300&width=400",
       description: "Affordable housing project with modern amenities.",
@@ -70,18 +70,22 @@ export default function Portfolio() {
   ]
 
   const filteredProjects =
-    activeCategory === "all" ? projects : projects.filter((project) => project.category === activeCategory)
+    activeCategory === "all"
+      ? projects
+      : projects.filter((project) => project.category === activeCategory)
 
   return (
     <section id="portfolio" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            <span className="text-primary">Our</span> <span className="text-tertiary">Portfolio</span>
+            <span className="text-primary">Our</span>{" "}
+            <span className="text-tertiary">Portfolio</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Explore our diverse portfolio of successful projects across India. From residential complexes to commercial
-            towers, we've built landmarks that stand the test of time.
+            Explore our diverse portfolio of successful projects across India.
+            From residential complexes to commercial towers, we've built
+            landmarks that stand the test of time.
           </p>
         </div>
 
@@ -146,15 +150,7 @@ export default function Portfolio() {
                   </div>
                   <div className="flex items-center space-x-2">
                     <Calendar className="w-4 h-4 text-secondary" />
-                    <span>{project.duration}</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <IndianRupee className="w-4 h-4 text-tertiary" />
-                    <span>{project.budget}</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <Users className="w-4 h-4 text-accent" />
-                    <span>{project.units}</span>
+                    <span>{project.year}</span>
                   </div>
                 </div>
 
