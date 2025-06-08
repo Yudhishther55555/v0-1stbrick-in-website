@@ -28,8 +28,6 @@ export default function Hero() {
   },
   ]
 
-  ]
-
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length)
@@ -117,19 +115,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Stats Section */}
-        <div className="mt-20 grid grid-cols-2 lg:grid-cols-4 gap-8">
-          {stats.map((stat, index) => (
-            <div key={index} className="text-center animate-bounce-in" style={{ animationDelay: `${index * 0.2}s` }}>
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-4">
-                <stat.icon className="w-8 h-8 text-primary" />
-              </div>
-              <div className="text-3xl font-bold text-tertiary">{stat.value}</div>
-              <div className="text-gray-600">{stat.label}</div>
-            </div>
-          ))}
-        </div>
-      </div>
+        
     </section>
   )
 }
