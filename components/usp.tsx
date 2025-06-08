@@ -23,12 +23,6 @@ export default function USP() {
       stat: "98% On-Time",
     },
     {
-      icon: Users,
-      title: "Expert Team",
-      description: "50+ certified engineers and architects with 15+ years average experience",
-      stat: "50+ Experts",
-    },
-    {
       icon: Trophy,
       title: "Award Winning",
       description: "5+ industry awards for excellence in construction and innovation",
